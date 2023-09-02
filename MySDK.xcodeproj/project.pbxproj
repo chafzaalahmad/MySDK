@@ -11,6 +11,7 @@
 		D235BA472AA3FB9900797EE6 /* MySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D235BA3C2AA3FB9900797EE6 /* MySDK.framework */; };
 		D235BA4C2AA3FB9900797EE6 /* MySDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D235BA4B2AA3FB9900797EE6 /* MySDKTests.swift */; };
 		D235BA4D2AA3FB9900797EE6 /* MySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D235BA3F2AA3FB9900797EE6 /* MySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D235BA572AA3FBC200797EE6 /* MySDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D235BA562AA3FBC200797EE6 /* MySDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		D235BA402AA3FB9900797EE6 /* MySDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MySDK.docc; sourceTree = "<group>"; };
 		D235BA462AA3FB9900797EE6 /* MySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D235BA4B2AA3FB9900797EE6 /* MySDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySDKTests.swift; sourceTree = "<group>"; };
+		D235BA562AA3FBC200797EE6 /* MySDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				D235BA3F2AA3FB9900797EE6 /* MySDK.h */,
 				D235BA402AA3FB9900797EE6 /* MySDK.docc */,
+				D235BA562AA3FBC200797EE6 /* MySDK.swift */,
 			);
 			path = MySDK;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D235BA572AA3FBC200797EE6 /* MySDK.swift in Sources */,
 				D235BA412AA3FB9900797EE6 /* MySDK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +404,7 @@
 		D235BA542AA3FB9900797EE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -415,6 +420,7 @@
 		D235BA552AA3FB9900797EE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
